@@ -4,43 +4,61 @@
 <meta charset="UTF-8">
 <title>応援お願いします</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <style>
 body{
 margin:0;
-background:#fafafa;
 font-family:sans-serif;
 text-align:center;
+background: linear-gradient(180deg,#fff5f8,#ffd6e7);
 }
 
-.box{
-margin:12px auto;
+/* タイトル */
+h2{
+margin-top:18px;
+margin-bottom:10px;
 }
 
+/* 応援ボタン */
 .button{
 display:block;
-width:92%;
-margin:10px auto;
-padding:16px;
+width:90%;
+margin:15px auto;
+padding:18px;
 font-size:18px;
-background:#ff4d4d;
+background:#ff3d6e;
 color:white;
-border-radius:10px;
+border-radius:12px;
 text-decoration:none;
+font-weight:bold;
+box-shadow:0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* カード */
+.card{
+width:92%;
+margin:14px auto;
+background:white;
+border-radius:14px;
+padding:10px;
+box-shadow:0 6px 18px rgba(0,0,0,0.12);
+}
+
+/* 見出し */
+.title{
+font-size:16px;
+margin-bottom:6px;
 font-weight:bold;
 }
 
+/* iframe */
 iframe{
-width:92%;
+width:100%;
 border:0;
-border-radius:8px;
-}
-
-.title{
-font-size:16px;
-margin-top:14px;
-margin-bottom:5px;
+border-radius:10px;
 }
 </style>
+
 </head>
 
 <body>
@@ -51,27 +69,27 @@ margin-bottom:5px;
 応援クリック
 </a>
 
+<div class="card">
 <div class="title">ヒメ日記</div>
-<div class="box">
 <iframe height="420"
 src="https://fujoho.jp/index.php?p=shop_girl_blog_list&id=66219&ct=color_diary_pink&iframe=ON2"></iframe>
 </div>
 
+<div class="card">
 <div class="title">すぐヒメ</div>
-<div class="box">
 <iframe height="420"
 src="https://fujoho.jp/index.php?p=shop_info_notime_girl&id=66219&ct=color_suguhime_purple&iframe=ON2"></iframe>
 </div>
 
+<div class="card">
 <div class="title">好評価</div>
-<div class="box">
 <iframe height="420"
 src="https://fujoho.jp/index.php?p=shop_girl_good_list&id=66219&od=1&ct=color_iiko_green&iframe=ON2"></iframe>
 </div>
 
+<div class="card">
 <div class="title">口コミ</div>
-<div class="box">
-<iframe height="350"
+<iframe height="360"
 src="https://fujoho.jp/index.php?p=shop_repo_list&id=66219&ct=color_kuchikomi_pink&hi=ON&iframe=ON2"></iframe>
 </div>
 
